@@ -1,34 +1,37 @@
-import React from 'react'
+import React from 'react';
+import '../app/styles/skills.css';
 
 const Skills = () => {
   return (
-        <div id='skills' className='container pt-32'>
-        <div className='grid md:grid-cols-2 gap-20 items-center'>
-          <div data-aos="zoom-in-up">
-            <h2 className='text-4xl md:text-4xl'>Competencies I work with </h2>
-            <p className='text-neutral-300 pt-2'>
+        <div id='skills' className='skills-container'>
+        <div className='skills-grid '>
+          <div data-aos="zoom-in-up"className='skills-left'>
+            <h2 className='skills-heading'>Competencies I work with </h2>
+            <p className='skills-text'>
              I have a solid foundation in web development,specializing in HTML,CSS and Java Script,I am also proficient in Tailwind CSS for efficient styling and design.With a passion of learning, I stay updated on the latest technologies to enhance my skill set and contribute effectively to project.
 
             </p>
           </div>
           <div>
-            <div className='grid grid-cols-2 text-accent text-3xl sm:text-2xl'>
-              <div className='space-y-2'>
+            <div className='skills-right'>
+              <div className='skills-icon-grid'>
+               <div className='skills-space'>
                 <h2 data-aos="zoom-in-up">TypeScript</h2>
                 <h2 data-aos="zoom-in-up">React.Js</h2>
                 <h2 data-aos="zoom-in-up">Next.Js</h2>
               </div>
-              <div className='space-y-2'>
+              <div className='skills-space'>
                 <h2 data-aos="zoom-in-up">Tailwind</h2>
                 <h2 data-aos="zoom-in-up">CSS</h2>
                 <h2 data-aos="zoom-in-up">Node.Js</h2>
+                </div>
               </div>
             </div>
 
           </div>
          </div>  
          </div>
-  )  
-}
+  ); 
+};
 
-export default Skills
+export default Skills;

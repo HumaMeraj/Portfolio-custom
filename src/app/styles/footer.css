@@ -1,0 +1,20 @@
+.footer {
+margin-top: 4rem;
+padding: 1.5rem;
+text-align: center;
+background-color: #08e95e;
+color: #fff;
+font-size: 1rem;
+}
+@media (max-width: 768px) {
+    .footer {
+       padding: 1rem; 
+       font-size: 0.875rem;
+    }
+}
+@media (min-width:768px) {
+    .footer {
+        padding: 1.5rem;
+        font-size: 1.125rem;
+    }
+}
